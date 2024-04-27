@@ -1,19 +1,11 @@
-
-import './App.css'
+import 'boxicons'
+import NavBar from './component/nav'
 
 function App() {
 
   return (
     <>
-      <header className='flex'>
-        <h1>Hello Store</h1>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">Home</a>
-          <a href="#">Home</a>
-          <a href="#">Home</a>
-        </nav>
-      </header>
+      <NavBar/>
     </>
   )
 }
